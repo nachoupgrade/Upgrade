@@ -13,20 +13,18 @@ public class OrdenarColeccion {
 
         // Duplicar la lista
         ArrayList<Integer> listaEnterosDuplicada = new ArrayList<Integer>(listaEnteros);
-
-       // Muestro la lista desordenada
-       System.out.println("Lista original (desordenada):\n" + listaEnteros);
+        
+        // Muestro la lista desordenada
+        System.out.println("Lista original (desordenada):\n" + listaEnteros);
 
         // Ordenar la lista de enteros
         Collections.sort(listaEnteros);
 
         // Muestro la lista ordenada
         System.out.println("\nLista original (ordenada):\n" + listaEnteros);
-
         
         // Muestro la lista duplicada (desordenada)
         System.out.println("\nLista duplicada (desordenada):\n" + listaEnterosDuplicada);
-        
     }
 }
 
