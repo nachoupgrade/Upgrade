@@ -1,7 +1,7 @@
 # Upgrade
 ## Descripción
 
-Este repositorio contiene el material necesario para la actualización de conocimientos en GitHub para los cursos de DAM. Aquí encontrarás ejemplos, ejercicios y documentación útil para mejorar tus habilidades en el uso de GitHub.
+Este repositorio contiene el material necesario para la actualización de conocimientos en GitHub para los cursos de DAM y DAW. Aquí encontrarás ejemplos, ejercicios y documentación útil para mejorar tus habilidades en el uso de GitHub.
 ## Contenido
 
 ## Cómo usar este repositorio
