@@ -26,6 +26,7 @@ public class DiccionarioMapIteratorForeachLambda {
         palabrasQuijote.remove("merced");
 
         // Imprimir recorriendo con Iterator
+        System.out.println("\nImprimiendo con Iterator y while (con entrySet): ");
         Set<Map.Entry<String, Integer>> set = palabrasQuijote.entrySet();
         Iterator<Map.Entry<String, Integer>> iterator = set.iterator();
         while (iterator.hasNext()) {
@@ -34,12 +35,14 @@ public class DiccionarioMapIteratorForeachLambda {
         }
 
         // Imprimir recorriendo con un bucle for-each:
+        System.out.println("\nImprimiendo con bucle for-each (con entrySet): ");
         for (Map.Entry<String, Integer> entrada : palabrasQuijote.entrySet()) {
             System.out.println("Clave: " + entrada.getKey() + " - Valor " + entrada.getValue());
         }
 
 
         // Alternativa más moderna (Java 8+) con una expresión lambda:
+        System.out.println("\nImprimiendo con bucle for-each (expresión lambda): ");
         palabrasQuijote.forEach((clave, valor) ->
         System.out.println("Clave: " + clave + " - Valor " + valor ));
 
