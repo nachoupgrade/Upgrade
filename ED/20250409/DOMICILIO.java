@@ -1,24 +1,23 @@
 
 
 /**
- * Class DOMICILIO
+ * Class Domicilio
  */
-public class DOMICILIO {
+public class Domicilio {
 
   //
   // Fields
   //
 
-  private unsigned int identificador;
   private String direccion;
-  private String codigo_postal;
+  private int codigo_postal;
   private String poblacion;
   private String provincia;
   
   //
   // Constructors
   //
-  public DOMICILIO () { };
+  public Domicilio () { };
   
   //
   // Methods
@@ -28,22 +27,6 @@ public class DOMICILIO {
   //
   // Accessor methods
   //
-
-  /**
-   * Set the value of identificador
-   * @param newVar the new value of identificador
-   */
-  public void setIdentificador (unsigned int newVar) {
-    identificador = newVar;
-  }
-
-  /**
-   * Get the value of identificador
-   * @return the value of identificador
-   */
-  public unsigned int getIdentificador () {
-    return identificador;
-  }
 
   /**
    * Set the value of direccion
@@ -65,7 +48,7 @@ public class DOMICILIO {
    * Set the value of codigo_postal
    * @param newVar the new value of codigo_postal
    */
-  public void setCodigo_postal (String newVar) {
+  public void setCodigo_postal (int newVar) {
     codigo_postal = newVar;
   }
 
@@ -73,7 +56,7 @@ public class DOMICILIO {
    * Get the value of codigo_postal
    * @return the value of codigo_postal
    */
-  public String getCodigo_postal () {
+  public int getCodigo_postal () {
     return codigo_postal;
   }
 

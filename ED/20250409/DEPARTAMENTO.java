@@ -1,21 +1,21 @@
 
 
 /**
- * Class DEPARTAMENTO
+ * Class Departamento
  */
-public class DEPARTAMENTO {
+public class Departamento {
 
   //
   // Fields
   //
 
-  private unsigned int identificador;
+  private int identificador;
   private String nombre;
   
   //
   // Constructors
   //
-  public DEPARTAMENTO () { };
+  public Departamento () { };
   
   //
   // Methods
@@ -30,7 +30,7 @@ public class DEPARTAMENTO {
    * Set the value of identificador
    * @param newVar the new value of identificador
    */
-  public void setIdentificador (unsigned int newVar) {
+  public void setIdentificador (int newVar) {
     identificador = newVar;
   }
 
@@ -38,7 +38,7 @@ public class DEPARTAMENTO {
    * Get the value of identificador
    * @return the value of identificador
    */
-  public unsigned int getIdentificador () {
+  public int getIdentificador () {
     return identificador;
   }
 

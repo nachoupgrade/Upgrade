@@ -1,22 +1,22 @@
 
 
 /**
- * Class SUCURSAL
+ * Class Sucursal
  */
-public class SUCURSAL {
+public class Sucursal {
 
   //
   // Fields
   //
 
-  private unsigned int identificador;
+  private int identificador;
   private String nombre;
-  private DOMICILIO domicilio;
+  private Domicilio domicilio;
   
   //
   // Constructors
   //
-  public SUCURSAL () { };
+  public Sucursal () { };
   
   //
   // Methods
@@ -31,7 +31,7 @@ public class SUCURSAL {
    * Set the value of identificador
    * @param newVar the new value of identificador
    */
-  public void setIdentificador (unsigned int newVar) {
+  public void setIdentificador (int newVar) {
     identificador = newVar;
   }
 
@@ -39,7 +39,7 @@ public class SUCURSAL {
    * Get the value of identificador
    * @return the value of identificador
    */
-  public unsigned int getIdentificador () {
+  public int getIdentificador () {
     return identificador;
   }
 
@@ -63,7 +63,7 @@ public class SUCURSAL {
    * Set the value of domicilio
    * @param newVar the new value of domicilio
    */
-  public void setDomicilio (DOMICILIO newVar) {
+  public void setDomicilio (Domicilio newVar) {
     domicilio = newVar;
   }
 
@@ -71,7 +71,7 @@ public class SUCURSAL {
    * Get the value of domicilio
    * @return the value of domicilio
    */
-  public DOMICILIO getDomicilio () {
+  public Domicilio getDomicilio () {
     return domicilio;
   }
 

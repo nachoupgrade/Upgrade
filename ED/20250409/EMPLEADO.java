@@ -1,25 +1,25 @@
 
 
 /**
- * Class EMPLEADO
+ * Class Empleado
  */
-public class EMPLEADO {
+public class Empleado {
 
   //
   // Fields
   //
 
-  private unsigned int DNI;
+  private int DNI;
   private String nombre;
   private String apellidos;
   private String telefono;
   private String numero_seg_social;
-  private DOMICILIO domicilio;
+  private Domicilio domicilio;
   
   //
   // Constructors
   //
-  public EMPLEADO () { };
+  public Empleado () { };
   
   //
   // Methods
@@ -34,7 +34,7 @@ public class EMPLEADO {
    * Set the value of DNI
    * @param newVar the new value of DNI
    */
-  public void setDNI (unsigned int newVar) {
+  public void setDNI (int newVar) {
     DNI = newVar;
   }
 
@@ -42,7 +42,7 @@ public class EMPLEADO {
    * Get the value of DNI
    * @return the value of DNI
    */
-  public unsigned int getDNI () {
+  public int getDNI () {
     return DNI;
   }
 
@@ -114,7 +114,7 @@ public class EMPLEADO {
    * Set the value of domicilio
    * @param newVar the new value of domicilio
    */
-  public void setDomicilio (DOMICILIO newVar) {
+  public void setDomicilio (Domicilio newVar) {
     domicilio = newVar;
   }
 
@@ -122,7 +122,7 @@ public class EMPLEADO {
    * Get the value of domicilio
    * @return the value of domicilio
    */
-  public DOMICILIO getDomicilio () {
+  public Domicilio getDomicilio () {
     return domicilio;
   }
 
