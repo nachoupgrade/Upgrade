@@ -177,4 +177,4 @@ _Estructurados por tema y dificultad_
 Lee una cadena de texto y luego inviértela utilizando una pila (`Stack`). Para ello, vamos a ir apilando cada uno de los caracteres de la cadena y luego los iremos sacando para formar la cadena invertida.
 _Ejemplo:_
 Cadena original: Hola Mundo
-Cadena invertida: odnM aloH
+Cadena invertida: odnuM aloH
