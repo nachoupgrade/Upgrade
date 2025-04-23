@@ -1,0 +1,6 @@
+Hola, me llamo Nacho
+y estamos en una clase
+de programacion
+online de Java y 
+estamos probando a crear ficheros
+de texto y binarios.
