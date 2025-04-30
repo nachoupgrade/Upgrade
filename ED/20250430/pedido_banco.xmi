@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://schema.omg.org/spec/UML/2.1">
+  <xmi:Documentation exporter="umbrello uml modeller 25.07.70-b584d10 (experimental) (Applications 25.07.70) http://umbrello.kde.org" exporterVersion="2.0.4"/>
+  <uml:Model xmi:id="m1" name="UML Model">
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="folder" name="folder"/>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="dataType" name="dataType"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Logical_View" name="Logical View" stereotype="folder">
+      <uml:Package xmi:id="Datatypes" name="Datatypes" stereotype="folder">
+        <packagedElement xmi:type="uml:DataType" xmi:id="u3b10oCjzBKDH" name="int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u4JvVWNcJzkPw" name="char" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="ulC1Ha3wNF0Zn" name="boolean" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uYB2AXYDnaa4R" name="float" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uix5TSyzDRsZQ" name="double" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uOfblLKib3DBz" name="byte" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uanZvbWYDjxjT" name="short" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u1sbHJUr0mRVJ" name="long" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="ulqO51aORRLHa" name="String" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uv0IsCu8cLu4Z" name="Integer" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uY9eh6PqbVzEu" name="Character" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u9BJdADFqd0Ry" name="Boolean" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uxLtPrWblD8Tl" name="Float" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uF7GAnjSghtG9" name="Double" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="ucVrG7mH16lTM" name="Byte" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uNnc4CqFrRAa8" name="Short" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uRhG5pex4ENSW" name="Long" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uMp2D29BfJpbw" name="StringBuffer" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u1R66Mw6lReQr" name="StringBuilder" stereotype="dataType"/>
+      </uml:Package>
+      <packagedElement xmi:type="uml:Class" xmi:id="uAkhrbc1jjlmL" name="Sistema"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uyIFIQh2WxGbA" name="Pedido"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uk0hKsl7EkMUB" name="Banco"/>
+      <xmi:Extension extender="umbrello">
+        <diagrams resolution="96">
+          <diagram xmi.id="uEJPtjOkHHo7T" name="class diagram" type="1" documentation="" backgroundcolor="#ffffff" fillcolor="#ffffc0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" griddotcolor="#f5f5f5" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showdocumentation="0" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="100" canvasheight="800" canvaswidth="1100" isopen="0">
+            <widgets/>
+            <messages/>
+            <associations/>
+          </diagram>
+          <diagram xmi.id="uJUw76OidQZrM" name="PedidoBanco" type="3" documentation="" backgroundcolor="#ffffff" fillcolor="#ffffc0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" griddotcolor="#f5f5f5" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showdocumentation="0" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="100" canvasheight="800" canvaswidth="1100" isopen="1" autoincrementsequence="1">
+            <widgets>
+              <objectwidget xmi.id="ufqaekKkOibUP" localid="ukNeJCUvPKbUe" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="72" y="22" width="53" height="58" isinstance="0" showstereotype="2" drawasactor="1" multipleinstance="0" decon="0"/>
+              <objectwidget xmi.id="uk0hKsl7EkMUB" localid="uv7bLkrckEKj3" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="813" y="80" width="50" height="23" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+              <combinedFragmentwidget xmi.id="uQe8Gsf6qBHnY" localid="uKjASnGN8A7uV" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="0" x="-96" y="341" width="634" height="118" isinstance="0" showstereotype="2" combinedFragmentname="-Hasta completar pedido" documentation="" CombinedFragmenttype="3"/>
+              <objectwidget xmi.id="uyIFIQh2WxGbA" localid="uk5Q3ws9Df3BV" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="454" y="80" width="52" height="23" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+              <objectwidget xmi.id="uAkhrbc1jjlmL" localid="uZtSleViuTaI6" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="263" y="80" width="57" height="23" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+            </widgets>
+            <messages>
+              <messagewidget xmi.id="uvUSgT0B31DIv" localid="ujwHKXIxyFUMu" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="0" x="98" y="380" width="201" height="58" isinstance="0" showstereotype="2" seqnum="4" widgetaid="ukNeJCUvPKbUe" widgetbid="uZtSleViuTaI6" operation="Seleccionar producto" sequencemessagetype="1000" textid="um3fTmF86eeWa">
+                <floatingtext xmi.id="um3fTmF86eeWa" localid="ulHsAN0qa2OhQ" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="103" y="363" width="121" height="17" isinstance="0" showstereotype="2" text="Seleccionar producto" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="uBQAjcMO01jti" localid="uc4PNzzBlX76K" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="291" y="387" width="197" height="20" isinstance="0" showstereotype="2" seqnum="5" widgetaid="uZtSleViuTaI6" widgetbid="uk5Q3ws9Df3BV" operation="Añadir producto" sequencemessagetype="1000" textid="uPkvBkvGuebmc">
+                <floatingtext xmi.id="uPkvBkvGuebmc" localid="u2kwOy301p962" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="296" y="370" width="98" height="17" isinstance="0" showstereotype="2" text="Añadir producto" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="uX2IHJX5Aneyi" localid="uPJZCuMpDnbt6" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="0" x="98" y="527" width="201" height="51" isinstance="0" showstereotype="2" seqnum="6" widgetaid="ukNeJCUvPKbUe" widgetbid="uZtSleViuTaI6" operation="Pagar" sequencemessagetype="1000" textid="u92cq56ZpHfe9">
+                <floatingtext xmi.id="u92cq56ZpHfe9" localid="umI77euIFFZy7" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="103" y="510" width="49" height="17" isinstance="0" showstereotype="2" text="Pagar" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="ukx2wqR1tBs2H" localid="uHivpizP3doue" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="291" y="550" width="555" height="20" isinstance="0" showstereotype="2" seqnum="7" widgetaid="uZtSleViuTaI6" widgetbid="uv7bLkrckEKj3" operation="Tramitar pago" sequencemessagetype="1000" textid="uFDQ8reTddfzk">
+                <floatingtext xmi.id="uFDQ8reTddfzk" localid="uaOWGyEEugsq9" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="719" y="533" width="88" height="17" isinstance="0" showstereotype="2" text="Tramitar pago" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="uJd47Rmbuq7WN" localid="uOEHJL9mlLYaJ" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="98" y="186" width="201" height="20" isinstance="0" showstereotype="2" seqnum="1" widgetaid="ukNeJCUvPKbUe" widgetbid="uZtSleViuTaI6" operation="Login" sequencemessagetype="1000" textid="ubxyCeG0R49cq">
+                <floatingtext xmi.id="ubxyCeG0R49cq" localid="uxyBjqBkEqsdK" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="228" y="169" width="46" height="17" isinstance="0" showstereotype="2" text="Login" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="uR79nUuJZeibW" localid="uFhbGPPQuOz5t" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="99" y="264" width="191" height="8" isinstance="0" showstereotype="2" seqnum="2" widgetaid="ukNeJCUvPKbUe" widgetbid="uZtSleViuTaI6" operation="Crear pedido" sequencemessagetype="1001" textid="uw5JxBBoHgHyi">
+                <floatingtext xmi.id="uw5JxBBoHgHyi" localid="uSJC9GtLN8AvX" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="192" y="247" width="83" height="17" isinstance="0" showstereotype="2" text="Crear pedido" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="uxNCiAlj3bfMh" localid="uua6cKwDJV7BI" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="292" y="271" width="187" height="8" isinstance="0" showstereotype="2" seqnum="3" widgetaid="uZtSleViuTaI6" widgetbid="uk5Q3ws9Df3BV" operation="Creación de pedido" sequencemessagetype="1001" textid="urzAie812d8Hk">
+                <floatingtext xmi.id="urzAie812d8Hk" localid="uv6x2VkxiKsGg" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" autoresize="1" x="297" y="254" width="113" height="17" isinstance="0" showstereotype="2" text="Creación de pedido" pretext="" posttext="" role="704"/>
+              </messagewidget>
+            </messages>
+            <associations/>
+          </diagram>
+        </diagrams>
+      </xmi:Extension>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="Use_Case_View" name="Use Case View" stereotype="folder">
+      <packagedElement xmi:type="uml:Actor" xmi:id="ufqaekKkOibUP" name="Cliente"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="Component_View" name="Component View" stereotype="folder"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Deployment_View" name="Deployment View" stereotype="folder"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Entity_Relationship_Model" name="Entity Relationship Model" stereotype="folder"/>
+  </uml:Model>
+  <xmi:Extension extender="umbrello">
+    <docsettings viewid="uJUw76OidQZrM" documentation="" uniqueid="uXO1RIj5i6DK1"/>
+    <listview>
+      <listitem id="Views" type="800" open="1">
+        <listitem id="Component_View" type="821" open="1"/>
+        <listitem id="Deployment_View" type="827" open="1"/>
+        <listitem id="Entity_Relationship_Model" type="836" open="1"/>
+        <listitem id="Logical_View" type="801" open="1">
+          <listitem id="uk0hKsl7EkMUB" type="813" open="1"/>
+          <listitem id="uEJPtjOkHHo7T" type="807" label="class diagram" open="0"/>
+          <listitem id="Datatypes" type="830" open="0">
+            <listitem id="ulC1Ha3wNF0Zn" type="829" open="0"/>
+            <listitem id="u9BJdADFqd0Ry" type="829" open="0"/>
+            <listitem id="ucVrG7mH16lTM" type="829" open="0"/>
+            <listitem id="u4JvVWNcJzkPw" type="829" open="0"/>
+            <listitem id="uix5TSyzDRsZQ" type="829" open="0"/>
+            <listitem id="uF7GAnjSghtG9" type="829" open="0"/>
+            <listitem id="uYB2AXYDnaa4R" type="829" open="0"/>
+            <listitem id="uxLtPrWblD8Tl" type="829" open="0"/>
+            <listitem id="u3b10oCjzBKDH" type="829" open="0"/>
+            <listitem id="uv0IsCu8cLu4Z" type="829" open="0"/>
+            <listitem id="u1sbHJUr0mRVJ" type="829" open="0"/>
+            <listitem id="uRhG5pex4ENSW" type="829" open="0"/>
+            <listitem id="uanZvbWYDjxjT" type="829" open="0"/>
+            <listitem id="uNnc4CqFrRAa8" type="829" open="0"/>
+            <listitem id="ulqO51aORRLHa" type="829" open="0"/>
+            <listitem id="uMp2D29BfJpbw" type="829" open="0"/>
+            <listitem id="u1R66Mw6lReQr" type="829" open="0"/>
+          </listitem>
+          <listitem id="uyIFIQh2WxGbA" type="813" open="1"/>
+          <listitem id="uJUw76OidQZrM" type="810" label="PedidoBanco" open="0"/>
+          <listitem id="uAkhrbc1jjlmL" type="813" open="1"/>
+        </listitem>
+        <listitem id="Use_Case_View" type="802" open="1">
+          <listitem id="ufqaekKkOibUP" type="811" open="1"/>
+        </listitem>
+      </listitem>
+    </listview>
+    <codegeneration>
+      <codegenerator language="Java"/>
+    </codegeneration>
+  </xmi:Extension>
+</xmi:XMI>
