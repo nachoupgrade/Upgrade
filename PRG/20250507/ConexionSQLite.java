@@ -2,11 +2,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class ConexionBasica {
+public class ConexionSQLite {
     public static void main(String[] args) {
         try {
             // Indicar el tipo y el lugar de la base de datos
-            String urlbdd = "jdbc:sqlite:C:\\Users\\Nacho\\AppData\\Roaming\\DBeaverData\\workspace6\\.metadata\\sample-database-sqlite-1\\Chinook.db";
+            String bdd = "jdbc:sqlite:C:\\Users\\Nacho\\AppData\\Roaming\\DBeaverData\\workspace6\\.metadata\\sample-database-sqlite-1\\Chinook.db";
 
             // Usuario de la base de datos con el que vamos a realizar el login
             String usr = "";
@@ -15,7 +15,7 @@ public class ConexionBasica {
             String pwd = "";
 
             // Establece la conexión
-            Connection con = DriverManager.getConnection(urlbdd, usr, pwd);
+            Connection con = DriverManager.getConnection(bdd, usr, pwd);
             System.out.println("Conexión con la BDD realizada con éxito.");
 
             // Cerrar la conexión
